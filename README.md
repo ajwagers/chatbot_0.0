@@ -5,15 +5,15 @@ How to run the "Dadbot"
 - Navigate to the folder containing the files in this repository.
 - If you are using Anaconda, activate it.
     ```bash
-      conda activate
+    conda activate
     ```
 - Train the model.
     ```bash
-      python train.py
+    python train.py
     ```
 - Then you can run the model.
     ```bash
-      python chatbot_0_0.py
+    python chatbot_0_0.py
     ```
 
 https://github.com/patrickloeber/pytorch-chatbot
