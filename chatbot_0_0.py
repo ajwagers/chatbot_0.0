@@ -26,8 +26,8 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
-print("Let's chat! (type 'quit' to exit)")
+bot_name = "Dadbot"
+print("Hello!  I am Dadbot.  Ask me to tell you dad jokes, that is my one skill (type 'quit' to exit).")
 while True:
     # sentence = "do you use credit cards?"
     sentence = input("You: ")
